@@ -20,7 +20,7 @@ class SpringCloudTaskAppStartersBuildMaker implements JdkConfig, TestPublisher,
     final String organization
     final String project
 
-    final String branchToBuild = "master"
+    final String branchToBuild = "main"
 
     SpringCloudTaskAppStartersBuildMaker(DslFactory dsl, String organization,
                                          String project, String branchToBuild = "master") {

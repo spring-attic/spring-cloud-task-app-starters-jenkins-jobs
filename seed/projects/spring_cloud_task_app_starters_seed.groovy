@@ -8,7 +8,7 @@ job('spring-cloud-task-app-starters-seed') {
             remote {
                 github('spring-cloud-task-app-starters/jenkins-jobs')
             }
-            branch('master')
+            branch('main')
         }
     }
     steps {

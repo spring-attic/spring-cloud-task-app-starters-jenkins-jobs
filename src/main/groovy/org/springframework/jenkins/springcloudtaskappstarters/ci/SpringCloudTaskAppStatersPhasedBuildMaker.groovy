@@ -15,7 +15,7 @@ class SpringCloudTaskAppStatersPhasedBuildMaker implements SpringCloudTaskAppSta
         this.dsl = dsl
     }
 
-    void build(boolean isRelease, String releaseType, String branchToBuild = "master") {
+    void build(boolean isRelease, String releaseType, String branchToBuild = "main") {
         buildAllRelatedJobs(isRelease, releaseType, branchToBuild)
         dsl.multiJob("spring-cloud-task-app-starter-builds" + "-" + branchToBuild) {
             steps {
