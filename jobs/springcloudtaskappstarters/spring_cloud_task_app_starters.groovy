@@ -5,7 +5,7 @@ import javaposse.jobdsl.dsl.DslFactory
 
 DslFactory dsl = this
 
-String releaseType = "ga" // possible values are - milestone or ga
+String releaseType = "" // possible values are - milestone or ga
 
 // CI builds for spring cloud task app starters
 
@@ -17,7 +17,7 @@ String releaseType = "ga" // possible values are - milestone or ga
 //new SpringCloudTaskAppStatersPhasedBuildMaker(dsl).build(true, "ga", "Clark")
 
 // master builds
-new SpringCloudTaskAppStatersPhasedBuildMaker(dsl).build(true, "ga")
+new SpringCloudTaskAppStatersPhasedBuildMaker(dsl).build(false, "")
 
 // Dearborn builds
 new SpringCloudTaskAppStatersPhasedBuildMaker(dsl).build(false, "", "2.0.x")
