@@ -5,7 +5,7 @@ import javaposse.jobdsl.dsl.DslFactory
 
 DslFactory dsl = this
 
-String releaseType = "" // possible values are - milestone or ga
+String releaseType = "ga" // possible values are - milestone or ga
 
 // CI builds for spring cloud task app starters
 

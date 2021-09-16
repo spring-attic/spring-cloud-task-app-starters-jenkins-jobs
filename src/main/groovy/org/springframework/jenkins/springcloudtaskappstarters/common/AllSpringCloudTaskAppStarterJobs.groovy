@@ -8,7 +8,7 @@ import groovy.transform.CompileStatic
 @CompileStatic
 class AllSpringCloudTaskAppStarterJobs {
 
-    public static final List<String> PHASE1_JOBS = ['timestamp', 'composed-task-runner', 'timestamp-batch']
+    public static final List<String> PHASE1_JOBS = ['timestamp', 'timestamp-batch']
 
     public static final List<String> ALL_JOBS = PHASE1_JOBS;
 
