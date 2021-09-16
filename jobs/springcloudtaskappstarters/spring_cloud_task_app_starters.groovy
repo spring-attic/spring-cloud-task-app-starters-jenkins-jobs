@@ -17,7 +17,7 @@ String releaseType = "ga" // possible values are - milestone or ga
 //new SpringCloudTaskAppStatersPhasedBuildMaker(dsl).build(true, "ga", "Clark")
 
 // master builds
-new SpringCloudTaskAppStatersPhasedBuildMaker(dsl).build(false, "")
+new SpringCloudTaskAppStatersPhasedBuildMaker(dsl).build(true, "ga")
 
 // Dearborn builds
 new SpringCloudTaskAppStatersPhasedBuildMaker(dsl).build(false, "", "2.0.x")
